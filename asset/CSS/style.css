@@ -1,0 +1,99 @@
+body{
+    width: 100%;
+    background-image: url(../img/plage\ guadeloupe.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#preplat{
+    height: 35%;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+header{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+footer{
+    background-color: papayawhip;
+}
+h1{
+    font-family: "Condiment", cursive;
+    font-weight: bold;
+    color: rgb(224, 120, 0);
+    text-align: center;
+    width: 100%;
+    text-decoration: underline;
+}
+h2{
+    color: rgb(4, 102, 105);
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Condiment", cursive;
+    text-decoration: underline;
+}
+h3{
+    color: rgb(4, 102, 105);
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Condiment", cursive;
+    text-decoration: underline;
+}
+.ingredient li:nth-child(1){
+    font-weight: bold;
+    font-size: xx-large;
+}
+.ingredient{
+    border-radius: 30px;
+    background-color: rgba(255, 99, 71, 0.664);
+    width: 80%;
+    margin-left: 10%;
+}
+.ingredient ul li:hover{
+    color: red;
+    background-color: #f69d3c;
+}
+.ingredient ul{
+    text-align: left;
+    font-size: 140%;
+    list-style-type: none ;
+}
+.ingredient div{
+    width: 50%;
+    margin-left: 25%;
+    padding: 0 18%;
+}
+.prepatips{
+    border-radius: 30px;
+    background-color: rgb(119, 250, 101);
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 1.5em;
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.instructions{
+    background-color: rgba(168, 67, 235, 0.562);
+    color: rgba(69, 77, 72, 0.952);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2em;
+    border-radius: 30px;
+    width: 80%;
+    margin-left: 10%;
+}
+.instructions ol li:hover{
+    color: red;
+    background-color: #f69d3c;
+}
+h4{
+    color: rgb(4, 102, 105);
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Condiment", cursive;
+    text-decoration: underline;
+}
